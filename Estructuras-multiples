@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int opcion; // Variable para la elección
+
+    cout << "Seleccione una opción (1-3): ";
+    cin >> opcion;
+
+    // estructura switch (Selección múltiple)
+    switch (opcion) 
+    {
+        case 1:
+            cout << "Ha seleccionado la opción 1." << endl;
+            break; // salir del switch
+            
+        case 2:
+            cout << "Ha seleccionado la opción 2." << endl;
+            break; // salir del switch
+            
+        case 3:
+            cout << "Ha seleccionado la opción 3." << endl;
+            break; // salir del switch
+            
+        default:
+            cout << "Opción no válida." << endl;
+            break;
+    }
+
+    return 0;
+}
